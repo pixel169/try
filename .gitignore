@@ -1,0 +1,35 @@
+# Environment variables - DO NOT COMMIT THESE
+.env
+
+# Python virtual environment (if you use one)
+venv/
+*/venv/
+.venv/
+env/
+*/env/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Session files
+*.session
+gbot_session.session
+
+# State files
+managed_positions_state.json
+
+# Log files
+*.log
+telegram_mt5_bot.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
